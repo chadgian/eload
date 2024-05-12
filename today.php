@@ -9,7 +9,7 @@
         $stmt->bind_param('ss', $today, $today);
         $stmt->execute();
         $result = $stmt->get_result();
-
+    
         if ($stmt->error) {
             echo $stmt->error;
         }

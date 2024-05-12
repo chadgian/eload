@@ -110,7 +110,6 @@
                     $transactionDate = $today->modify( "-1 day" )->format('Y-m-d');
                     echo '<option value="'.$transactionDate.'">'.date('M d, Y', strtotime($transactionDate)).'</option>';
                 }
-
             ?>
         </select>
         <div class="previousTransactionsGroup">

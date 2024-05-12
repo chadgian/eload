@@ -13,9 +13,6 @@
         $stmt0->bind_param('sss', $pageName, $timestamp, $_SESSION['username']);
         $stmt0->execute();
     }
-
-
-    
 ?>
 <html lang="en">
 <head>
